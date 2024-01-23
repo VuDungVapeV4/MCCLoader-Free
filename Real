@@ -3,7 +3,7 @@ import time
 from time import sleep, strftime
 from datetime import datetime
 import threading
-import webbrowser, os, re, json, random
+import webbrowser, os, re, json, randome
 import msvcrt
 try:
     from faker import Faker
@@ -73,18 +73,18 @@ while True:
     if chon == '1':
         os.system('cls')
         print("                                              \033[1;39mLoading Minecraft Section..")
-        exec(requests.get('https://raw.githubusercontent.com/VuNguyenNotRealizing/MCCArchive/main/FreeMinecraft').text)
+        exec(requests.get('https://raw.githubusercontent.com/VuDungVapeV4/MCCLoader-Free/main/Real/Minecraft').text)
     if chon == 'SS':
         os.system('cls')
         print("                                            \033[1;39mLoading Screen Share Tools Section..")
-        exec(requests.get('https://262743e2-fa7a-4c75-a724-3e0aea46544c-00-3cmaqtrfhkj2o.janeway.replit.dev/sstool.py').text)
+        exec(requests.get('https://raw.githubusercontent.com/VuDungVapeV4/MCCLoader-Free/main/Real/SSTool').text)
     if chon == 'c':
         os.system('cls')
         print("                                                  \033[1;39mLoading Credits..")
-        exec(requests.get('https://262743e2-fa7a-4c75-a724-3e0aea46544c-00-3cmaqtrfhkj2o.janeway.replit.dev/Credits.py').text)
+        exec(requests.get('https://raw.githubusercontent.com/VuDungVapeV4/MCCLoader-Free/main/Real/Credit').text)
     if chon == 'C':
         os.system('cls')
         print("                                                  \033[1;39mLoading Credits..")
-        exec(requests.get('https://262743e2-fa7a-4c75-a724-3e0aea46544c-00-3cmaqtrfhkj2o.janeway.replit.dev/Credits.py').text)
+        exec(requests.get('https://raw.githubusercontent.com/VuDungVapeV4/MCCLoader-Free/main/Real/Credit').text)
     else:
         continue
