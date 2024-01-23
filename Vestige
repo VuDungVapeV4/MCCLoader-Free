@@ -1,0 +1,27 @@
+ves = """\033[1;31m[\033[1;39m-\033[1;31m] \033[1;32mBack to previous page 
+\033[1;31m[\033[1;39m2.0.2\033[1;31m] \033[1;32mVestige \033[1;31m[\033[1;33mv2.0.2\033[1;31m] 
+\033[1;31m[\033[1;39m2.2.1\033[1;31m] \033[1;32mVestige \033[1;31m[\033[1;33mv2.2.1 Patched\033[1;31m] 
+\033[1;31m[\033[1;39m3.0.?\033[1;31m] \033[1;32mVestige \033[1;31m[\033[1;33mv3.0.?\033[1;31m] 
+\033[1;31m[\033[1;39mVR\033[1;31m] \033[1;32mVestige Reborn \033[1;31m[\033[1;33mv1.2.1\033[1;31m]"""
+print(ves)
+
+
+# =======================[RUN]=======================#
+while True:
+  os.system('cls')
+  print(ves)
+  chon = input('                                               \033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> ')
+  if chon == '-':
+      os.system('cls')
+      print("Leaving Vestige")
+      exec(requests.get('https://262743e2-fa7a-4c75-a724-3e0aea46544c-00-3cmaqtrfhkj2o.janeway.replit.dev/minecraft.py').text)
+  if chon == '2.0.2':
+      webbrowser.open_new("https://www.mediafire.com/file/adqea2u9ass33ni/Vestige_2.0.2.zip/file")
+  if chon == '2.2.1':
+      webbrowser.open_new("https://www.mediafire.com/file/puxs5k0hlvxmh6y/Vestige.zip/file")
+  if chon == '3.0.?':
+      webbrowser.open_new("https://www.mediafire.com/file/puxs5k0hlvxmh6y/Vestige.zip/file")
+  if chon == 'VR':
+      webbrowser.open_new("https://cdn.discordapp.com/attachments/1163049995520458782/1182982091579863060/VestigeR.zip?ex=6586aced&is=657437ed&hm=7d0bcca35206ee8abf3ae7f6&")
+  else:
+      continue
