@@ -1,4 +1,3 @@
-webbrowser.open_new("https://www.youtube.com/watch?v=A-RI-t04E3E")
 banner = f"""                                         Use stuffs in MCC Loader at your own risk.
 
                  ███╗░░░███╗░█████╗░░█████╗░██╗░██████╗  ░█████╗░██████╗░░█████╗░██╗░░██╗██╗██╗░░░██╗███████╗
