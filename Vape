@@ -1,0 +1,27 @@
+vape = """\033[1;31m[\033[1;39m-\033[1;31m] \033[1;32mBack to previous page 
+\033[1;31m[\033[1;39m4.10\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv4.10\033[1;31m] \033[1;31m[\033[1;33mUse at your own risk\033[1;31m] 
+\033[1;31m[\033[1;39m4.06\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv4.06\033[1;31m] 
+\033[1;31m[\033[1;39m4.04\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv4.04 + Build in Vape Lite\033[1;31m] 
+\033[1;31m[\033[1;39m3.25\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv3.25\033[1;31m] 
+"""
+print(vape)
+
+# =======================[RUN]=======================#
+while True:
+  os.system('cls')
+  print(vape)
+  chon = input('                                               \033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> ')
+  if chon == '-':
+      os.system('cls')
+      print("Leaving vapeshit")
+      exec(requests.get('https://raw.githubusercontent.com/VuDungVapeV4/MCCLoader-Free/main/Minecraft').text)
+  if chon == '3.25':
+      webbrowser.open_new("https://www.mediafire.com/file/8coudk5wgq9ssla/Vape_v3.25.zip/file")
+  if chon == '4.04':
+      webbrowser.open_new("https://anotepad.com/notes/4qyx3tmb")
+  if chon == '4.06':
+      webbrowser.open_new("https://www.mediafire.com/file/4c02w3mpw89vjwv/Vape+4.06.zip/file")
+  if chon == '4.10':
+      webbrowser.open_new("https://pixeldrain.com/u/zELPqtnN")
+  else:
+      continue
