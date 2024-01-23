@@ -14,7 +14,7 @@ while True:
   if chon == '-':
       os.system('cls')
       print("Leaving Vestige")
-      exec(requests.get('https://262743e2-fa7a-4c75-a724-3e0aea46544c-00-3cmaqtrfhkj2o.janeway.replit.dev/minecraft.py').text)
+      exec(requests.get('https://raw.githubusercontent.com/VuDungVapeV4/MCCLoader-Free/main/Minecraft').text)
   if chon == '2.0.2':
       webbrowser.open_new("https://www.mediafire.com/file/adqea2u9ass33ni/Vestige_2.0.2.zip/file")
   if chon == '2.2.1':
