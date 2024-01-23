@@ -73,18 +73,18 @@ while True:
     if chon == '1':
         os.system('cls')
         print("                                              \033[1;39mLoading Minecraft Section..")
-        exec(requests.get('https://raw.githubusercontent.com/VuDungVapeV4/MCCLoader-Free/main/Real/Minecraft').text)
+        exec(requests.get('https://raw.githubusercontent.com/VuDungVapeV4/MCCLoader-Free/main/Minecraft').text)
     if chon == 'SS':
         os.system('cls')
         print("                                            \033[1;39mLoading Screen Share Tools Section..")
-        exec(requests.get('https://raw.githubusercontent.com/VuDungVapeV4/MCCLoader-Free/main/Real/SSTool').text)
+        exec(requests.get('https://raw.githubusercontent.com/VuDungVapeV4/MCCLoader-Free/main/SSTool').text)
     if chon == 'c':
         os.system('cls')
         print("                                                  \033[1;39mLoading Credits..")
-        exec(requests.get('https://raw.githubusercontent.com/VuDungVapeV4/MCCLoader-Free/main/Real/Credit').text)
+        exec(requests.get('https://raw.githubusercontent.com/VuDungVapeV4/MCCLoader-Free/main/Credit').text)
     if chon == 'C':
         os.system('cls')
         print("                                                  \033[1;39mLoading Credits..")
-        exec(requests.get('https://raw.githubusercontent.com/VuDungVapeV4/MCCLoader-Free/main/Real/Credit').text)
+        exec(requests.get('https://raw.githubusercontent.com/VuDungVapeV4/MCCLoader-Free/main/Credit').text)
     else:
         continue
