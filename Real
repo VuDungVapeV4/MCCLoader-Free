@@ -47,8 +47,8 @@ m = print("""
 
 
 
-                                          \033[1;39mMCC Loader is updating latest version 1.0.0..
-                          \033[1;39mSorry, please be patient and waiting for new announcement on MCC's Archive :3            
+                                     \033[1;39mMCC Loader is updating latest version 1.0.0..
+                    \033[1;39mSorry, please be patient and waiting for new announcement on MCC's Archive :3            
 
 
 
